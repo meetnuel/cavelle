@@ -220,7 +220,7 @@ h3 {
   padding: 14px 34px;
   font: 600 .85rem var(--body);
   letter-spacing: .03em;
-  border: 1px solid #fff;
+  border: 1.5px solid #fff;
   color: #fff;
   background: transparent;
   text-transform: uppercase
@@ -244,7 +244,7 @@ h3 {
   justify-content: space-around;
   align-items: center;
   gap: 20px;
-  padding: 8px var(--pad);
+  padding: 12px var(--pad);
   flex-wrap: wrap
 }
 
@@ -253,11 +253,11 @@ h3 {
   color: #9aa5b4;
   font: 600 .7rem var(--head);
   letter-spacing: .1em;
-  padding: 16px 28px
+  padding: 16px 28px;
 }
 
 .brand-img {
-  height: 90px;
+  height: 120px;
 }
 
 /* sections */
@@ -294,56 +294,56 @@ h3 {
   align-items: center;
   padding: 18px;
   text-align: center;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .cat .ph {
   position: absolute;
-  inset: 0
+  inset: 0;
 }
 
 .cat span,
 .cat u {
   position: relative;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, .35)
+  text-shadow: 0 1px 6px rgba(0, 0, 0, .35);
 }
 
 .cat span {
-  font: 600 1.15rem var(--head)
+  font: 600 1.15rem var(--head);
 }
 
 .cat u {
   font-size: .75rem;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .cats-wrap {
-  padding: 0 0 0
+  padding: 0 0 0;
 }
 
 /* products */
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 18px 16px
+  gap: 18px 16px;
 }
 
 .card h3 {
   font: 600 .95rem var(--head);
-  margin-top: 12px
+  margin-top: 12px;
 }
 
 .card p {
   font-size: .8rem;
   color: var(--mute);
-  margin-top: 2px
+  margin-top: 2px;
 }
 
 .pimg {
   position: relative;
   aspect-ratio: 1;
   overflow: hidden;
-  background: var(--ph)
+  background: var(--ph);
 }
 
 .pimg img {
@@ -376,19 +376,19 @@ h3 {
   place-items: center;
   opacity: 0;
   transform: translateY(6px);
-  transition: .2s
+  transition: .2s;
 }
 
 .card:hover .addbtn,
 .addbtn:focus-visible {
   opacity: 1;
-  transform: none
+  transform: none;
 }
 
 @media (hover:none) {
   .addbtn {
     opacity: 1;
-    transform: none
+    transform: none;
   }
 }
 
