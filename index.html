@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cavelle | Swoon Worthy Jewelry</title>
+</head>
+
+<body>
+  <div class="strip">
+    <span class="phone"><i class="hgi hgi-stroke hgi-call"></i> +234(0)0123 456 7890</span>
+    <span>Get up to 30% off on first order <a href="#new-arrivals"
+        style="text-decoration: underline; font-weight: 700;">Shop Now</a></span>
+    <span class="social"><a href="#" aria-label="Facebook"><i class="hgi hgi-stroke hgi-facebook-01"></i></a><a href="#"
+        aria-label="X"><i class="hgi hgi-stroke hgi-new-twitter"></i></a><a href="#" aria-label="LinkedIn"><i
+          class="hgi hgi-stroke hgi-linkedin-01"></i></a><a href="#" aria-label="Instagram"><i
+          class="hgi hgi-stroke hgi-instagram"></i></a></span>
+  </div>
+  <header class="hdr">
+    <button class="ic l" aria-label="Menu"><i class="hgi hgi-stroke hgi-menu-01"></i></button>
+    <img src="resources/cavelle logo.png" alt="Cavelle" class="logo">
+
+    <div class="r">
+      <button class="ic" aria-label="Search"><i class="hgi hgi-stroke hgi-search-01"></i></button>
+      <button class="ic" aria-label="Wishlist"><i class="hgi hgi-stroke hgi-favourite"></i></button>
+      <a class="ic" href="cart.html" aria-label="Cart"><i class="hgi hgi-stroke hgi-shopping-bag-01"></i><b
+          id="cartCount" hidden>0</b></a>
+    </div>
+  </header>
+  <section class="hero"><!-- hero image: set background-image on .hero in styles.css -->
+    <div><small>INTRODUCING THE</small>
+      <h1>AMOUR GIFT SHOP</h1>
+      <p>Explore swoon worthy pieces for yourself and your loved</p><a class="btn" href="#new-arrivals">Visit Shop</a>
+    </div>
+  </section>
+  <section class="brands" aria-label="Brands">
+    <!-- replace each with an <img> -->
+    <img src="resources/brand-imgs/cartier.png" alt="" class="brand-img">
+    <img src="resources/brand-imgs/swarovski.png" alt="" class="brand-img">
+    <img src="resources/brand-imgs/hermes.png" alt="" class="brand-img">
+    <img src="resources/brand-imgs/montblanc.png" alt="" class="brand-img">
+    <img src="resources/brand-imgs/papier.png" alt="" class="brand-img">
+
+  </section>
+  <section class="sec center">
+    <h2>Shop by category</h2>
+    <div class="cats"><!-- replace each .ph with an <img> -->
+      <a class="cat" href="#new-arrivals">
+        <img src="resources/24485.jpg" alt="">
+        <span>Bracelets</span><u>SHOP NOW</u>
+      </a>
+      <a class="cat" href="#necklaces">
+        <img src="resources/2151934134.jpg" alt="">
+        <span>Necklaces and Pendants</span><u>SHOP
+          NOW</u>
+      </a>
+      <a class="cat" href="#new-arrivals">
+        <img src="resources/2151693759.jpg" alt="">
+        <span>Rings</span><u>SHOP NOW</u>
+      </a>
+    </div>
+  </section>
+  <section class="sec" id="new-arrivals">
+    <h2>New Arrivals</h2>
+    <div class="grid" id="newArrivals"></div>
+  </section>
+  <section class="sec" id="necklaces">
+    <h2>Necklaces</h2>
+    <div class="grid" id="necklaceGrid"></div>
+  </section>
+  <section class="promo">
+    <div class="grid">
+      <div class="banner">
+        <img src="resources/giftshop.jpg" alt="">
+        <h2>AMOUR GIFT SHOP</h2>
+        <p>Swoon worthy pieces for yourself and your loved</p><a class="btn light" href="#new-arrivals">Visit Shop</a>
+      </div>
+      <div style="display:contents" id="promoProducts"></div>
+    </div>
+  </section>
+  <div class="band">
+    <img src="resources/band.png" alt="">
+  </div>
+  <footer class="foot">
+    <a class="logo" href="index.html"><img src="resources/cavelle-logo-white.png" alt="Cavelle" class="logo"></a>
+    <h3>Swoon Worthy Jewelry Hand-Picked For You</h3>
+    <div class="links"><a href="#"><i class="hgi hgi-stroke hgi-tiktok"></i> cavellejewels</a><a href="#"><i
+          class="hgi hgi-stroke hgi-whatsapp"></i> +234(0)0123 456 7890</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

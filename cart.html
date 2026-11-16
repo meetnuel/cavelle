@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your Cart | Cavelle</title>
+</head>
+
+<body>
+  <header class="hdr">
+    <button class="ic l" aria-label="Menu"><i class="hgi hgi-stroke hgi-menu-01"></i></button>
+    <a class="logo" href="index.html"
+      aria-label="Cavelle home">
+      <img src="resources/cavelle logo.png" alt="Cavelle" class="logo"></a>
+    <div class="r">
+      <button class="ic" aria-label="Search"><i class="hgi hgi-stroke hgi-search-01"></i></button>
+      <button class="ic" aria-label="Wishlist"><i class="hgi hgi-stroke hgi-favourite"></i></button>
+      <a class="ic" href="cart.html" aria-label="Cart"><i class="hgi hgi-stroke hgi-shopping-bag-01"></i><b
+          id="cartCount" hidden>0</b></a>
+    </div>
+  </header>
+  <main class="wrap" id="cartPage">
+    <section id="cartFilled" class="cl" hidden>
+      <div>
+        <h1>Your Cart</h1>
+        <div id="items"></div>
+      </div>
+      <div>
+        <h2>Checkout</h2>
+        <form onsubmit="return false" novalidate>
+          <label>Full Name<input id="name" autocomplete="name" required></label>
+          <label>Delivery Address<textarea id="addr" autocomplete="street-address" required></textarea></label>
+          <label>Note (optional)<textarea id="note"></textarea></label>
+          <div class="err" id="err" role="alert"></div>
+        </form>
+        <div class="total"><span>Total</span><span id="total">₦0</span></div>
+        <button class="wa" id="send">Send order on Whatsapp</button>
+        <p class="note">Opens WhatsApp with your order filled in. Nothing is paid on this page.</p>
+      </div>
+    </section>
+    <section id="cartEmpty" hidden>
+      <h1>Your Cart</h1>
+      <div class="empty">
+        <p>Nothing In Your Cart Yet!</p><a class="btn dark" href="index.html">Start Shopping</a>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
