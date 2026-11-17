@@ -145,8 +145,7 @@ if (send)
     const total = money(ids.reduce((s, i) => s + find(i).price * cart[i], 0));
     const msg = `Hello ${STORE}, I’d like to place an order.\n\nOrder ${ref}\n${lines}\n\nTotal: ${total}\n\nName: ${name}\nDelivery address: ${addr}${note ? "\nNote: " + note : ""}\n\nPlease confirm availability, delivery fee and payment details.`;
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
-    // if (!window.open(url, "_blank", "noopener")) location.href = url;
-    if (!window.open(url, "noopener")) location.href = url;
+    if (!window.open(url, "_blank", "noopener")) location.href = url;
   };
 updateCount();
 renderCart();
