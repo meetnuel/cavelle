@@ -743,3 +743,10 @@ textarea {
   margin-left: calc(-1 * var(--pad));
   padding-left: var(--pad);
 }
+
+.direction {
+  font-family: var(--body);
+  font-size:.75rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
