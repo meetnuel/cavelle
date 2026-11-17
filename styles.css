@@ -244,7 +244,7 @@ h3 {
   justify-content: space-around;
   align-items: center;
   gap: 20px;
-  padding: 12px var(--pad);
+  padding: 16px var(--pad);
   flex-wrap: wrap
 }
 
@@ -281,7 +281,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  padding: 0 0 0
+  padding: 0 0 0;
 }
 
 .cat {
@@ -314,7 +314,8 @@ h3 {
 
 .cat u {
   font-size: .75rem;
-  font-weight: 700;
+  margin-top: .2rem;
+  font-weight: 500;
 }
 
 .cats-wrap {
@@ -358,6 +359,7 @@ h3 {
   top: 10px;
   left: 10px;
   background: #fff;
+  color: rgb(255, 75, 43);
   font: 600 .6rem var(--body);
   padding: 3px 8px;
   border-radius: 3px
