@@ -746,7 +746,7 @@ textarea {
 
 .direction {
   font-family: var(--body);
-  font-size:.75rem;
+  font-size:12px;
   font-weight: 500;
   margin-bottom: 1rem;
 }
