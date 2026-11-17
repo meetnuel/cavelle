@@ -2,45 +2,27 @@
 const WHATSAPP_NUMBER = "2340000000000"; // country code + number, no "+" or spaces
 const STORE = "Cavelle",
   CURRENCY = "₦";
-// img: "" shows a placeholder; add a path like "img/p1.jpg" to show a photo.
-// const P = (id, cat, hot = true) => ({
-//   id,
-//   name: "Product Name",
-//   price: 375000,
-//   cat,
-//   img: "",
-//   hot,
-// });
-
-// const PRODUCTS = [1, 2, 3, 4, 5, 6, 7, 8]
-//   .map((i) => P(i, "new"))
-//   .concat(
-//     [9, 10, 11, 12].map((i) => P(i, "necklaces")),
-//     [13, 14].map((i) => P(i, "promo", false)),
-//   );
-// /* ====================== */
-// WRAP THIS UP HERE
 
 const PRODUCTS = [
   // New Arrivals (8)
-  { id: 1,  name: "Product Name", price: 375000, cat: "new", img: "img/p1.jpg", hot: true },
-  { id: 2,  name: "Product Name", price: 375000, cat: "new", img: "img/p2.jpg", hot: true },
-  { id: 3,  name: "Product Name", price: 375000, cat: "new", img: "img/p3.jpg", hot: true },
-  { id: 4,  name: "Product Name", price: 375000, cat: "new", img: "img/p4.jpg", hot: true },
-  { id: 5,  name: "Product Name", price: 375000, cat: "new", img: "img/p5.jpg", hot: true },
-  { id: 6,  name: "Product Name", price: 375000, cat: "new", img: "img/p6.jpg", hot: true },
-  { id: 7,  name: "Product Name", price: 375000, cat: "new", img: "img/p7.jpg", hot: true },
-  { id: 8,  name: "Product Name", price: 375000, cat: "new", img: "img/p8.jpg", hot: true },
+  { id: 1,  name: "Product Name", price: 375000, cat: "new", img: "resources/jewels/jewel-1.png", hot: true },
+  { id: 2,  name: "Product Name", price: 375000, cat: "new", img: "resources/jewels/jewel-2.jpeg", hot: true },
+  { id: 3,  name: "Product Name", price: 375000, cat: "new", img: "resources/jewels/jewel-3.png", hot: true },
+  { id: 4,  name: "Product Name", price: 375000, cat: "new", img: "resources/jewels/jewel-4.webp", hot: true },
+  { id: 5,  name: "Product Name", price: 375000, cat: "new", img: "resources/jewels/jewel-5.jpg", hot: true },
+  { id: 6,  name: "Product Name", price: 375000, cat: "new", img: "resources/jewels/jewel-6.png", hot: true },
+  { id: 7,  name: "Product Name", price: 375000, cat: "new", img: "resources/jewels/jewel-7.jpeg", hot: true },
+  { id: 8,  name: "Product Name", price: 375000, cat: "new", img: "resources/jewels/jewel-8.jpeg", hot: true },
 
   // Necklaces (4)
-  { id: 9,  name: "Product Name", price: 375000, cat: "necklaces", img: "img/p9.jpg",  hot: false },
-  { id: 10, name: "Product Name", price: 375000, cat: "necklaces", img: "img/p10.jpg", hot: false },
-  { id: 11, name: "Product Name", price: 375000, cat: "necklaces", img: "img/p11.jpg", hot: false },
-  { id: 12, name: "Product Name", price: 375000, cat: "necklaces", img: "img/p12.jpg", hot: false },
+  { id: 9,  name: "Product Name", price: 375000, cat: "necklaces", img: "resources/jewels/jewel-9.jpeg",  hot: false },
+  { id: 10, name: "Product Name", price: 375000, cat: "necklaces", img: "resources/jewels/jewel-10.png", hot: false },
+  { id: 11, name: "Product Name", price: 375000, cat: "necklaces", img: "resources/jewels/jewel-7.jpeg", hot: false },
+  { id: 12, name: "Product Name", price: 375000, cat: "necklaces", img: "resources/jewels/jewel-8.jpeg", hot: false },
 
   // Next to the promo banner (2)
-  { id: 13, name: "Product Name", price: 375000, cat: "promo", img: "img/p13.jpg", hot: false },
-  { id: 14, name: "Product Name", price: 375000, cat: "promo", img: "img/p14.jpg", hot: false }
+  { id: 13, name: "Product Name", price: 375000, cat: "promo", img: "resources/2151693702.jpg", hot: false },
+  { id: 14, name: "Product Name", price: 375000, cat: "promo", img: "resources/2151693759.jpg", hot: false }
 ];
 
 let cart = {};

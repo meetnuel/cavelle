@@ -407,17 +407,17 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   padding: 36px;
-  min-height: 300px;
+  min-height: 280px;
   overflow: hidden
 }
 
 .banner .ph {
   position: absolute;
-  inset: 0
+  inset: 0;
 }
 
 .banner>*:not(.ph) {
-  position: relative
+  position: relative;
 }
 
 .banner h2 {
@@ -723,4 +723,23 @@ textarea {
   width: auto;
   max-width: 160px;
   object-fit: contain
+}
+
+.promo .pimg {
+  aspect-ratio: 3 / 4;
+}
+
+/* fix: banner image fills the whole banner */
+.promo .banner > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* banner bleeds to the left edge of the screen */
+.promo .grid .banner {
+  margin-left: calc(-1 * var(--pad));
+  padding-left: var(--pad);
 }
